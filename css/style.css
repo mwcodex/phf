@@ -190,15 +190,20 @@ footer {
 .footer-column {
     width: 50%;
 }
- footer input[type="text"], 
- footer input[type="email"], 
- footer textarea {
-    height: 64px;
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
     border-radius: 5px;
     background-color: white;
-    display: block;
+    border: 0;
     width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    border: none;
  }
